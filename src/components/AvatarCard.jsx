@@ -7,7 +7,7 @@ const AvatarCard = () => {
     <View style={styles.card}>
       <Image source={doctor} />
       <View style={styles.content}>
-        <Text style={styles.name}>Dr Bellamy N</Text>
+        <Text style={styles.name}>Jhon Doe</Text>
         <Text style={styles.specialty}>Viratologist</Text>
         <View style={styles.review}>
           <Foundation name="star" size={16} color="#FFE662" />

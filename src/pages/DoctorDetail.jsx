@@ -54,10 +54,7 @@ const DoctorDetail = () => {
         <View style={styles.content}>
           <Text style={styles.subTitles}>About Doctor</Text>
           <Text>
-            Dr. Bellamy Nicholas is a top specialist at London Bridge Hospital
-            at London. He has achieved several awards and recognition for is
-            contribution and service in his own field. He is available for
-            private consultation.{" "}
+            Dr. Jhon Doe Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.{" "}
           </Text>
           <View style={{ height: 20 }}></View>
           <Text style={styles.subTitles}>Working Time</Text>

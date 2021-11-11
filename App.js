@@ -7,7 +7,7 @@ import AppoinmentScreen from './src/pages/AppoinmentScreen';
 import ChatScreen from './src/pages/ChatScreen';
 export default function App() {
   return (
-    <ChatScreen />
+    <AppoinmentScreen />
   );
 }
 
