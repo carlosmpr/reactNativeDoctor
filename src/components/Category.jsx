@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet,Image } from "react-native";
 
-export default function Category({ text, image,quantity }) {
+export default function Category({ text, image,quantity,color= '#F5F5FA' }) {
   const styles = StyleSheet.create({
     text: {
       fontSize: 15,
@@ -15,7 +15,7 @@ export default function Category({ text, image,quantity }) {
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
-      backgroundColor: '#F5F5FA',
+      backgroundColor:color,
       marginRight: 20,
      
     },
@@ -36,7 +36,7 @@ export default function Category({ text, image,quantity }) {
     <View style={styles.card}>
    <Image source={image} />
       <Text style={styles.text}>{text}</Text>
-      <Text style={styles.quantity}>{quantity} Doctors</Text>
+      <Text style={styles.quantity}>{quantity}</Text>
     </View>
   );
 }

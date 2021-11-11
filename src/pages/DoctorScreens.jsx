@@ -28,7 +28,7 @@ const DoctorScreens = () => {
         <View style={styles.container}>
           <View style={styles.search}>
             <Ionicons name="search-outline" size={24} color="black" />
-            <TextInput style={{ flex: 1, marginLeft: 5 }} />
+            <TextInput style={{ flex: 1, marginLeft: 5 }} placeholder="Search"/>
           </View>
         </View>
 
